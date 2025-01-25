@@ -4,6 +4,10 @@ body {
   font-family: "Courier";
   background-color: #fff5e4;
   color: #ff9494;
+  @media only screen and (max-width:600px) {
+    body { width: 100%;
+         }
+  }
 }
 
 img {
